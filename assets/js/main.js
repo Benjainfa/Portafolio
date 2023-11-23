@@ -1,6 +1,4 @@
-AOS.init();
-// You can also pass an optional settings object
-// below listed default settings
+
 AOS.init({
   
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:

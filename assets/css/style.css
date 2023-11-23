@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #b6cbce;
-    --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58;
+    --color-body: #d1e6e9;
+    --color-heading: #dddddd;
+    --color-base: #252c2e;
+    --color-base2: #1A89A3;
+    --color-brand: #204AFA;
+    --color-brand2: rgb(148, 148, 148)0, 0);
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -82,7 +82,7 @@ img {
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
+    color: #cccccc;
 }
 
 .navbar .nav-link:hover {
@@ -97,7 +97,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        background: linear-gradient(rgba(49, 49, 49, 0.8), rgba(67, 69, 70, 0.8)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -184,10 +184,7 @@ img {
     height: 44px;
 }
 
-/* SOCIAL ICONS */
-.social-icons {
 
-}
 
 .social-icons a {
     width: 40px;
